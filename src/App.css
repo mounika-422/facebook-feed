@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
-}
+body{
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height:100vh;
+  overflow: hidden;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  background-color: #3accfd;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.header{
+  
+  background-color: rgb(255, 127, 244);
+  color:rgb(77, 44, 107) ;
+  width: 100%;
+  height: fit-content;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  padding: 10px 10px 10px;
 }
+.feed-input{
+  padding: 10px 20px 90px;
+  width:70%;
+  height: 100%;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
+  cursor: pointer;
+  outline: none;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post-btn{
+  width:20%;
+  margin-left: 25% ;
+  margin-top:5%;
+  border-radius: 10%;
+  padding: 5px 5px 5px;
+  background-color: greenyellow;
+  color: purple;
+}
+.ur-post{
+  color:blue;
+  
+}
+.delete-icon{
+  height:26px;
+    cursor:pointer;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.jc-space-between{
+  justify-content: space-between;
+}
+.column{
+  display: flex;
+  flex-direction: column;        
 }
